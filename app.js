@@ -81,7 +81,7 @@
       setStatus("No hay coincidencias.");
       viewEl.hidden = true;
     } else {
-      setStatus("Listo.");
+      setStatus("");
       viewEl.hidden = false;
     }
   }
@@ -107,7 +107,7 @@
 
       if (songs.length) {
         selectSong(songs[0].id);
-        setStatus("Listo.");
+        setStatus("");
       } else {
         setStatus("No hay canciones cargadas.");
       }
