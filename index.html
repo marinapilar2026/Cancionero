@@ -1,0 +1,33 @@
+﻿<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cancionero</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <h1>Cancionero</h1>
+    <div class="actions">
+      <input id="searchInput" type="search" placeholder="Buscar por titulo o letra" aria-label="Buscar canciones" />
+      <span id="count" class="count">-</span>
+    </div>
+  </header>
+
+  <main class="layout">
+    <aside class="sidebar">
+      <nav id="songList" class="song-list" aria-label="Lista de canciones"></nav>
+    </aside>
+
+    <section class="content">
+      <p id="status" class="status">Cargando canciones...</p>
+      <article id="songView" class="song-view" hidden>
+        <h2 id="songTitle"></h2>
+        <pre id="songBody"></pre>
+      </article>
+    </section>
+  </main>
+</body>
+</html>

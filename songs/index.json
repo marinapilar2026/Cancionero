@@ -1,0 +1,248 @@
+﻿[
+    {
+        "id":  1,
+        "number":  1,
+        "title":  "EN EL NOMBRE DEL PADRE",
+        "file":  "001-en-el-nombre-del-padre.txt"
+    },
+    {
+        "id":  2,
+        "number":  2,
+        "title":  "QUE LINDO ES LLEGAR CANTANDO",
+        "file":  "002-que-lindo-es-llegar-cantando.txt"
+    },
+    {
+        "id":  3,
+        "number":  3,
+        "title":  "EN EL NOMBRE DE DIOS",
+        "file":  "003-en-el-nombre-de-dios.txt"
+    },
+    {
+        "id":  4,
+        "number":  4,
+        "title":  "SIGNO DE ESPERANZA",
+        "file":  "004-signo-de-esperanza.txt"
+    },
+    {
+        "id":  5,
+        "number":  5,
+        "title":  "VIVE EL SEÑOR",
+        "file":  "005-vive-el-senor.txt"
+    },
+    {
+        "id":  6,
+        "number":  6,
+        "title":  "DÉJAME NACER DE NUEVO",
+        "file":  "006-dejame-nacer-de-nuevo.txt"
+    },
+    {
+        "id":  7,
+        "number":  7,
+        "title":  "SALMO 18",
+        "file":  "007-salmo-18.txt"
+    },
+    {
+        "id":  8,
+        "number":  8,
+        "title":  "SALMO  138",
+        "file":  "008-salmo-138.txt"
+    },
+    {
+        "id":  9,
+        "number":  9,
+        "title":  "TU BENDICIÓN",
+        "file":  "009-tu-bendicion.txt"
+    },
+    {
+        "id":  10,
+        "number":  10,
+        "title":  "QUEREMOS SER, SEÑOR",
+        "file":  "010-queremos-ser-senor.txt"
+    },
+    {
+        "id":  11,
+        "number":  11,
+        "title":  "ESTE ES EL MOMENTO",
+        "file":  "011-este-es-el-momento.txt"
+    },
+    {
+        "id":  12,
+        "number":  12,
+        "title":  "TE OFRECEMOS SEÑOR",
+        "file":  "012-te-ofrecemos-senor.txt"
+    },
+    {
+        "id":  13,
+        "number":  13,
+        "title":  "QUIERO SER PAN",
+        "file":  "013-quiero-ser-pan.txt"
+    },
+    {
+        "id":  14,
+        "number":  14,
+        "title":  "CARA A CARA",
+        "file":  "014-cara-a-cara.txt"
+    },
+    {
+        "id":  15,
+        "number":  15,
+        "title":  "SIN MIEDO",
+        "file":  "015-sin-miedo.txt"
+    },
+    {
+        "id":  16,
+        "number":  16,
+        "title":  "TU LLAMADO",
+        "file":  "016-tu-llamado.txt"
+    },
+    {
+        "id":  17,
+        "number":  17,
+        "title":  "SOPLA",
+        "file":  "017-sopla.txt"
+    },
+    {
+        "id":  18,
+        "number":  18,
+        "title":  "JESUCRISTO",
+        "file":  "018-jesucristo.txt"
+    },
+    {
+        "id":  19,
+        "number":  19,
+        "title":  "EL DIOS DE LA VIDA",
+        "file":  "019-el-dios-de-la-vida.txt"
+    },
+    {
+        "id":  20,
+        "number":  20,
+        "title":  "CONTRA TODA ESPERANZA",
+        "file":  "020-contra-toda-esperanza.txt"
+    },
+    {
+        "id":  21,
+        "number":  21,
+        "title":  "SANTO ESPIRITU",
+        "file":  "021-santo-espiritu.txt"
+    },
+    {
+        "id":  22,
+        "number":  23,
+        "title":  "MARANATHA",
+        "file":  "023-maranatha.txt"
+    },
+    {
+        "id":  23,
+        "number":  24,
+        "title":  "HACIÉNDOTE PAN.",
+        "file":  "024-haciendote-pan.txt"
+    },
+    {
+        "id":  24,
+        "number":  25,
+        "title":  "HIMNO DEL CONGRESO EUCARÍSTICO",
+        "file":  "025-himno-del-congreso-eucaristico.txt"
+    },
+    {
+        "id":  25,
+        "number":  26,
+        "title":  "ESTO QUE SOY, ESO TE DOY.",
+        "file":  "026-esto-que-soy-eso-te-doy.txt"
+    },
+    {
+        "id":  26,
+        "number":  27,
+        "title":  "NO HAY MAYOR AMOR",
+        "file":  "027-no-hay-mayor-amor.txt"
+    },
+    {
+        "id":  27,
+        "number":  28,
+        "title":  "DIOS DE PENTECOSTÉS",
+        "file":  "028-dios-de-pentecostes.txt"
+    },
+    {
+        "id":  28,
+        "number":  29,
+        "title":  "JUNTO A LA CRUZ.",
+        "file":  "029-junto-a-la-cruz.txt"
+    },
+    {
+        "id":  29,
+        "number":  30,
+        "title":  "HASTA DAR LA VIDA.",
+        "file":  "030-hasta-dar-la-vida.txt"
+    },
+    {
+        "id":  30,
+        "number":  31,
+        "title":  "FELÍZ DE TI, MARÍA.",
+        "file":  "031-feliz-de-ti-maria.txt"
+    },
+    {
+        "id":  31,
+        "number":  32,
+        "title":  "ALMA DE CRISTO",
+        "file":  "032-alma-de-cristo.txt"
+    },
+    {
+        "id":  32,
+        "number":  33,
+        "title":  "CAMINO, VERDAD Y VIDA",
+        "file":  "033-camino-verdad-y-vida.txt"
+    },
+    {
+        "id":  33,
+        "number":  34,
+        "title":  "GETSEMANI",
+        "file":  "034-getsemani.txt"
+    },
+    {
+        "id":  34,
+        "number":  35,
+        "title":  "TU SEÑOR",
+        "file":  "035-tu-senor.txt"
+    },
+    {
+        "id":  35,
+        "number":  36,
+        "title":  "NADIE TE AMA COMO YO",
+        "file":  "036-nadie-te-ama-como-yo.txt"
+    },
+    {
+        "id":  36,
+        "number":  37,
+        "title":  "MISERICORDIA",
+        "file":  "037-misericordia.txt"
+    },
+    {
+        "id":  37,
+        "number":  38,
+        "title":  "TU MODO",
+        "file":  "038-tu-modo.txt"
+    },
+    {
+        "id":  38,
+        "number":  39,
+        "title":  "CONTIGO MARÍA",
+        "file":  "039-contigo-maria.txt"
+    },
+    {
+        "id":  39,
+        "number":  40,
+        "title":  "DIJISTE SÍ",
+        "file":  "040-dijiste-si.txt"
+    },
+    {
+        "id":  40,
+        "number":  41,
+        "title":  "LA ELEGIDA",
+        "file":  "041-la-elegida.txt"
+    },
+    {
+        "id":  41,
+        "number":  42,
+        "title":  "QUIEN SERA LA MUJER",
+        "file":  "042-quien-sera-la-mujer.txt"
+    }
+]
