@@ -91,6 +91,27 @@ body {
   min-width: 0;
 }
 
+.mobile-picker {
+  display: none;
+  margin-bottom: 0.7rem;
+}
+
+.mobile-picker label {
+  display: block;
+  margin-bottom: 0.35rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.mobile-picker select {
+  width: 100%;
+  height: 2.2rem;
+  border: 1px solid var(--line);
+  border-radius: 0.5rem;
+  background: #fff;
+  padding: 0 0.5rem;
+}
+
 .status {
   margin: 0;
   color: var(--muted);
@@ -116,13 +137,43 @@ body {
 }
 
 @media (max-width: 920px) {
-  .layout { grid-template-columns: 1fr; }
-
-  .sidebar {
-    position: static;
-    height: auto;
-    max-height: 34vh;
+  .topbar {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.5rem;
   }
 
-  #searchInput { width: min(22rem, 62vw); }
+  .actions {
+    width: 100%;
+  }
+
+  #searchInput {
+    width: 100%;
+  }
+
+  .count {
+    white-space: nowrap;
+  }
+
+  .layout {
+    grid-template-columns: 1fr;
+    padding: 0.75rem;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .mobile-picker {
+    display: block;
+  }
+
+  .song-view {
+    padding: 0.8rem;
+  }
+
+  .song-view pre {
+    line-height: 1.6;
+    font-size: 1rem;
+  }
 }

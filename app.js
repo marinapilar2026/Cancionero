@@ -6,6 +6,7 @@
   const bodyEl = document.getElementById("songBody");
   const searchInput = document.getElementById("searchInput");
   const countEl = document.getElementById("count");
+  const songSelect = document.getElementById("songSelect");
 
   let songs = [];
   let filteredSongs = [];
@@ -24,6 +25,7 @@
 
   function renderList() {
     listEl.innerHTML = "";
+    songSelect.innerHTML = "";
 
     filteredSongs.forEach((song) => {
       const btn = document.createElement("button");
@@ -33,6 +35,12 @@
       btn.textContent = `${song.number}. ${song.title}`;
       btn.addEventListener("click", () => selectSong(song.id));
       listEl.appendChild(btn);
+
+      const option = document.createElement("option");
+      option.value = String(song.id);
+      option.textContent = `${song.number}. ${song.title}`;
+      if (song.id === currentId) option.selected = true;
+      songSelect.appendChild(option);
     });
 
     countEl.textContent = `${filteredSongs.length} / ${songs.length}`;
@@ -110,5 +118,9 @@
   }
 
   searchInput.addEventListener("input", applyFilter);
+  songSelect.addEventListener("change", () => {
+    const id = Number(songSelect.value);
+    if (Number.isFinite(id)) selectSong(id);
+  });
   loadSongs();
 })();
