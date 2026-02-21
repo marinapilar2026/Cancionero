@@ -244,5 +244,11 @@
         "number":  42,
         "title":  "QUIEN SERA LA MUJER",
         "file":  "042-quien-sera-la-mujer.txt"
+    },
+    {
+        "id":  42,
+        "number":  50,
+        "title":  "POR ESTAS CENIZAS",
+        "file":  "050 por estas cenizas.txt"
     }
 ]
