@@ -11,8 +11,42 @@ import tkinter as tk
 from tkinter import messagebox
 
 
-ROOT = Path(__file__).resolve().parent
-SONGS_DIR = ROOT / "songs"
+def discover_project_root() -> Path:
+    candidates = []
+
+    # Prefer where user launched the app from.
+    candidates.append(Path.cwd())
+
+    # When running as EXE, this points to the EXE location.
+    if getattr(sys, "frozen", False):
+        exe_dir = Path(sys.executable).resolve().parent
+        candidates.append(exe_dir)
+        candidates.append(exe_dir.parent)
+
+    # When running as .py script.
+    script_dir = Path(__file__).resolve().parent
+    candidates.append(script_dir)
+    candidates.append(script_dir.parent)
+
+    seen = set()
+    for base in candidates:
+        try:
+            base = base.resolve()
+        except Exception:
+            continue
+        if base in seen:
+            continue
+        seen.add(base)
+        if (base / "songs" / "index.json").exists():
+            return base
+
+    raise RuntimeError(
+        "No existe songs/index.json. Ejecuta el editor dentro de la carpeta del proyecto Cancionero."
+    )
+
+
+PROJECT_ROOT = discover_project_root()
+SONGS_DIR = PROJECT_ROOT / "songs"
 INDEX_PATH = SONGS_DIR / "index.json"
 
 
@@ -296,7 +330,7 @@ class CancioneroEditor(tk.Tk):
         cmd = [self.git_exe, *args]
         result = subprocess.run(
             cmd,
-            cwd=str(ROOT),
+            cwd=str(PROJECT_ROOT),
             capture_output=True,
             text=True,
             encoding="utf-8",
